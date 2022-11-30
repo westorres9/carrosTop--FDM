@@ -1,0 +1,13 @@
+.home-section {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFF;
+}
+
+.car-card-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+}

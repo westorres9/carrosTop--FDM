@@ -1,0 +1,37 @@
+.car-card {
+    background-color: var(--color-bg-light-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.car-card img {
+    width: 186px;
+    margin: 14px auto 8px;
+}
+
+.car-card h2 {
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+.car-card p {
+    font-size: 14px;
+    font-style: italic;
+    color: var(--color-font-mid-gray);
+    margin: 0 20px 38px 20px;
+}
+
+.car-card button {
+    height: 40px;
+    width: 100%;
+    font-weight: bold;
+    max-width: 230px;
+    margin-bottom: 15px;
+    background-color:  var(--color-bg-blue);
+    color: #FFF;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
